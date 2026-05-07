@@ -1,0 +1,9 @@
+model:
+  name: "llama-3.1-8b-instant"
+  temperature: 0.7
+  top_p: 0.9
+  max_output_tokens: 4000
+
+debugging_app:
+  explanation_language: "en"   # reserve for future (if you want Hindi etc)
+  max_code_chars: 4000         # safety limit for very long code
